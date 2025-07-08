@@ -1,6 +1,30 @@
-# **SWE 304 Group Project**
+# **CI/CD Pipeline with GitHub Actions**
+
+# **Project Overview**
+
+This project demonstrates the creation and implementation of a CI/CD pipeline using GitHub Actions to automate:
+
+Building a JAR file from a Java Spring Boot web application.
+
+Uploading the JAR file to a cloud environment (AWS or Azure).
+
+Creating and pushing a Docker image to DockerHub.
+
+All tasks are triggered automatically upon a GitHub push or a pull request merge.
 
 Our Postman [project](https://www.postman.com/iamkorniichuk/swe304/).
+
+# **🚀 Key Objectives**
+✅ Automate JAR file creation on GitHub.
+
+✅ Automate Docker image creation and push to DockerHub.
+
+✅ Automate cloud deployment (copying JAR to AWS/Azure).
+
+✅ Use GitHub Secrets to securely manage DockerHub and cloud credentials.
+
+✅ Demonstrate a complete DevOps pipeline.
+
 
 ## **🛠 Prerequisites**
 
@@ -60,3 +84,6 @@ When you pull the commit replacing Maven with Gradle, follow these steps to migr
     ```bash
     gradle build --refresh-dependencies
     ```
+
+# **📌 Final Notes**
+This project showcases the ability to automate full-cycle application deployment. By integrating GitHub Actions with Docker and cloud services, we achieve a modern, efficient DevOps workflow—an essential skill for real-world software engineering.
